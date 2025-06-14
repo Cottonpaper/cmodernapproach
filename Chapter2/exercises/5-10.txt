@@ -1,0 +1,14 @@
+5.
+    a, b
+6.
+    Two consecutive underscores in an identifier can
+    be unclear and identifiers that begin with two
+    underscores are reserved for implementation use
+7.
+    a, e
+8.
+    14 tokens
+9.
+    Not doing that
+10.
+    The spaces within string literals and that separate tokens
