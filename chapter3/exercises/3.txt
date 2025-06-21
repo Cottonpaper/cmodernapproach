@@ -1,0 +1,11 @@
+(a)     equivalent
+
+(b)     they are not equivalent, "%d-%d" will stop if it encounters
+        whitespace when searching for a '-' match.
+
+(c)     they are not equivalent, "%f " with a trailing space with
+        continue to read through the buffer until a non-whitespace
+        character is encountered. "%f" will cause scanf to stop reading after
+        a non-float character is encountered.
+
+(d)     equivalent
