@@ -1,0 +1,75 @@
+1.
+    (a) "1 2"
+    (b) "0"
+    (c) "1"
+    (d) "0"
+
+2.
+    Both expressions are evaluted the same in c99+, since negative divison rounds to 0.
+    One negative operand always results in a negative result so -i / j
+    is equivalent to dividing two positive integers and negating the result.
+    Paranthases are not required for -i since unary operators have higher precedence.
+
+3.
+    (a) 1
+    (b) -1 or -2
+    (c) -1 or -2
+    (d) 1
+
+4.
+    (a) 1
+    (b) -1
+    (c) -1
+    (d) 1
+5.
+    (a) 3
+    (b) 2 or -3
+    (c) -2 or 3
+    (d) -3
+
+6.
+    (a) 3
+    (b) -3
+    (c) 3
+    (d) -3
+    The sign is always the same as the dividend.
+
+7.
+    The simplified algorithm doesn't work since subtraction and division aren't commutative.
+    (Might not be actual reason, not sure)
+
+8.
+    Yes, dunno why
+9.
+    (a) "49 8"
+    (b) "3 2 1"
+    (c) "2 -1 3"
+    (d) "0 0 0"
+10.
+    (a) "12 12"
+    (b) "3 4"
+    (c) "2 8"
+    (d) "6 9"
+11.
+    (a) "0 2"
+    (b) "4 11 6"
+    (c) "0 8 7"
+    (d) "3 4 5 4"
+12.
+    (a) "6 16"
+    (b) "6 -7"
+    (c) "6 23"
+    (d) "6 15"
+13.
+    ++i is the same as i += 1 because both expressions return the value of i after adding 1.
+    i++ returns the value of i before incrementing.
+14.
+    (a) ((a * b) - (c * d)) + e
+    (b) ((a / b) % c) / d
+    (c) (((-a) - b) + c) - (+d)
+    (d) ((a * (-b)) / c) - d
+15.
+    (a) 3
+    (b) 3
+    (c) 2
+    (d) 0
